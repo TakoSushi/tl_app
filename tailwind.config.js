@@ -3,6 +3,9 @@ export default {
   content: ['./index.html'],
   theme: {
     extend: {
+      backgroundPosition: {
+        'right-top': 'right 2rem top',
+      },
       colors(theme) {
         return {
           primary: {
